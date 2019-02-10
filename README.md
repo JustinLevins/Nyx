@@ -2,7 +2,7 @@
 CLI Bioinformatics tool
 
 ### BioPy 
-BioPy is a simple tool to obtain more information about a user-entered protein. It utilizes the RCSB PDB to fetch a .pdb file, and Biopython to analyze it. Currently, it supports several unique features, such as the building of a Ramachandran plot and well as the construction of a hydropathy plot, and can BLAST proteins from the command line.
+BioPy is a simple tool to obtain more information about a user-entered protein. It utilizes the RCSB PDB to fetch a .pdb file, and Biopython to analyze it. Currently, it supports several unique features, such as the building of a Ramachandran plot and the construction of a hydropathy plot, and can BLAST proteins from the command line.
 
 #### Required: 
 Matplotlib, numpy, and Biopython. "Nyx" is my own python file, and contains the values for the Kyte-Doolittle plot.
