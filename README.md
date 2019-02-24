@@ -1,5 +1,5 @@
 # Nyx
-Python Bioinformatics tool
+Python Bioinformatics tools
 
 ### BioPy 
 BioPy is a simple tool to obtain more information about a user-entered protein. It utilizes the RCSB PDB to fetch a .pdb file, and Biopython to analyze it. Currently, it supports several unique features, such as the building of a Ramachandran plot and the construction of a hydropathy plot, and can BLAST proteins from the command line.
@@ -35,8 +35,10 @@ This uses the Kyte-Doolittle method described in their [1982 paper] that utilize
 BLASTing (<- is that a word?) a protein is rather simple, and utilizes the NCBI RESTful web service, outputting BLAST results into your web browser.
 
 ### Nyx project
-I'm working on implementing a few additional features, including multiple sequence alignment, a GUI, and a structure prediction mode (discussed in Nyx.py). To anyone reading this, feel free to contact me with ideas or really anything bioinformatics-related. Biopython is an amazing tool and I'm always wanting to talk to more people who use/have used it.
+I'm working on implementing a few additional features, including multiple sequence alignment, a GUI, and a structure prediction mode (discussed in Nyx.py). Additionally, RNA transcription data is of great interest to me and Python's networkx library could be used to correct gaps in reference transcriptomes/synthesize super transcripts, as described [here], which would be ideal for RNAseq of non-model organisms--in the future, Nyx will contain an example of this. This repository will be a collection of tools for learning bioinformatics/analyzing particular molecules or transcription data. To anyone reading this, feel free to contact me with ideas or really anything bioinformatics-related. Biopython is an amazing tool and I'm always wanting to talk to more people who use/have used it.
 
+
+[here]: https://doi.org/10.1186/s13059-017-1284-1
 [proteopedia]: https://proteopedia.org/wiki/index.php/Phi_and_Psi_Angles
 [proteinstructures.com]: https://proteinstructures.com/Structure/Structure/Ramachandran-plot.html
 [1982 paper]: https://www.sciencedirect.com/science/article/pii/0022283682905150?via%3Dihub
